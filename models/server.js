@@ -13,7 +13,7 @@ class Server {
         this.routes();
     }
 
-    //aque se define el metodo middleware que publicara la carpeta public
+    //aqui se define el metodo middleware que publicara la carpeta public
     middlewares() {
         this.app.use(cors());
         //lectura y parseo del body recibe lo que se envia

@@ -1,6 +1,8 @@
 
 const { response, request } = require('express');
 
+
+//M Query
 const usuariosGet = (req = request, res = response) => {
     const { q, nombre = 'no envia', apikey } = req.query;
     res.json({
